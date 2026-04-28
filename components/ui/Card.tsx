@@ -11,7 +11,6 @@ export default function Card({ project }: CardProps) {
 
   return (
     <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col">
-      {/* Image */}
       <div className="w-full h-48 overflow-hidden">
         <img
           src={imageUrl}
